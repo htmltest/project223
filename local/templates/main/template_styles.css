@@ -1,0 +1,51 @@
+.successButton{
+    border: 1px solid #0A9E4A !important;
+    color: #0A9E4A !important;
+}    
+.successButtonDetail{
+    background: #fff !important;
+    color: #0A9E4A !important;
+}
+
+.article-cont img {
+	object-fit: contain;
+}
+
+.thumb-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  height: 0;
+  overflow: hidden;
+}
+.thumb-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  outline-width: 0;
+}
+
+.dropdown-menu__content {
+z-index: 9999 !important;
+}
+
+.video {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+width:100%;
+}
+
+
+.video iframe,
+.video object,
+.video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
