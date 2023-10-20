@@ -36,6 +36,16 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    $('.icon-cat, .icon-cat').click(function(e) {
+        window.location.hash = 'drop-catalog';
+        e.preventDefault();
+    });
+
+    $('.icon-cat-close').click(function(e) {
+        window.location.hash = '';
+        e.preventDefault();
+    });
+
 });
 
 function initForm(curForm) {
