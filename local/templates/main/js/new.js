@@ -46,6 +46,20 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    $('.docs-group-title').click(function() {
+        var curGroup = $(this).parents().filter('.docs-group');
+        curGroup.toggleClass('open');
+    });
+
+    $('.docs-section-title-text').click(function() {
+        var curGroup = $(this).parents().filter('.docs-section');
+        curGroup.toggleClass('open');
+    });
+
+    $('.catalogu-home-mobile-all button').click(function() {
+        $('.catalog-home').addClass('open');
+    });
+
 });
 
 function initForm(curForm) {
@@ -81,6 +95,7 @@ function windowOpen(linkWindow, dataWindow) {
 
         $('body').append('<div class="window"><div class="window-loading"></div></div>')
 
+        $('body').css('margin-top', -curScroll);
         $('body').data('curScroll', curScroll);
     } else {
         $('.window').append('<div class="window-loading"></div>')
@@ -121,7 +136,7 @@ function windowClose() {
         if (isEmptyForm) {
             $('.window').remove();
             $('html').removeClass('window-open');
-            $('body').css({'margin-right': 0});
+            $('body').css({'margin-right': 0, 'margin-top': 0});
             $(window).scrollTop($('body').data('curScroll'));
         } else {
             if (confirm('Закрыть форму?')) {

@@ -103,7 +103,6 @@ p {
 /* BASE */
 
 html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -903,6 +902,7 @@ header .container,
 
 .menu-mail a {
   color: #0b89ce;
+  font-size: 11px;
   line-height: 21px;
   margin-left: 7px;
 }
