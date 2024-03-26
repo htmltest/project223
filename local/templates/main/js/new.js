@@ -60,6 +60,13 @@ $(document).ready(function() {
         $('.catalog-home').addClass('open');
     });
 
+    $('.breadcrumbs-catalogue-menu ul li').each(function() {
+        var curLi = $(this);
+        if (curLi.find('ul').length > 0) {
+            curLi.addClass('with-submenu');
+        }
+    });
+
 });
 
 function initForm(curForm) {
