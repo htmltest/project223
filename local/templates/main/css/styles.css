@@ -3240,9 +3240,9 @@ span:not(.swiper-pagination-bullet):hover {
 @media (max-width: 1070px) {
 	.basket-list__p {
 		position: relative;
-		width: 150px;
+		width: 132px;
 		height: 6px;
-		margin: 0 10px 0 20px;
+		margin: 0 0 0 20px;
 	}
 }
 
@@ -6743,3 +6743,12 @@ body .btn--blue {
 .breadcrumbs-catalogue-menu ul li:hover>ul {
 	display: block
 }
+
+#filter-mob .popup_menu_catalog_toggle {padding-bottom:12px; border-bottom:1px solid rgba(255, 255, 255, .5)}
+#filter-mob .popup_menu_catalog_toggle:hover {opacity:1}
+
+#brands-mob .popup_menu_catalog_toggle {padding-bottom:12px; border-bottom:1px solid rgba(255, 255, 255, .5)}
+#brands-mob .popup_menu_catalog_toggle:hover {opacity:1}
+
+#filter-mob .popup_menu_catalog_toggle::after {display:none}
+#brands-mob .popup_menu_catalog_toggle::after {display:none}

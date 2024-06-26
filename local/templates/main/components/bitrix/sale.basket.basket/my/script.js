@@ -73,10 +73,12 @@ $(function(){
 					$.each(data.INPUT_ERROR , function(index, val) { 
 						console.log(index, val);
 						$('#'+val).addClass('errorInput');
+                        $('html, body').animate({'scrollTop': $('.errorInput').eq(0).offset().top - $('header:visible').height() - 20});
 					});
 				}
 				else{
 					$('#orderFormErr').text(data.MESSAGE);
+                    $('html, body').animate({'scrollTop': $('#orderFormErr').offset().top - $('header:visible').height() - 20});
 				}
 			}
 		});
