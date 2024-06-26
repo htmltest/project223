@@ -8,7 +8,9 @@ $(document).ready(function() {
     );
 
     $('form').each(function() {
-        initForm($(this));
+        if ($(this).attr("id")!="orderForm") {
+            initForm($(this));
+        }
     });
 
     $('body').on('click', '.window-link', function(e) {

@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="Ru-ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="1С-Битрикс, CMS, PHP, bitrix, система управления контентом" />
+    <meta name="description" content="Навгеоком" />
+    <link href="local/templates/main/styles.css" type="text/css"  data-template-style="true" rel="stylesheet" />
+    <link href="local/templates/main/template_styles.css" type="text/css"  data-template-style="true" rel="stylesheet" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="local/templates/main/css/fancybox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="local/templates/main/css/styles.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="local/templates/main/css/template_styles.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="local/templates/main/components/bitrix/sale.basket.basket/my/style.css" type="text/css" media="screen" />
+
+    <link rel="shortcut icon" href="local/templates/main/favicon/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="local/templates/main/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="local/templates/main/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="local/templates/main/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="local/templates/main/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="local/templates/main/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="local/templates/main/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="local/templates/main/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="local/templates/main/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="local/templates/main/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="local/templates/main/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="local/templates/main/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="local/templates/main/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="local/templates/main/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="local/templates/main/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="local/templates/main/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="local/templates/main/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="local/templates/main/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="local/templates/main/favicon/mstile-310x310.png" />
+
+    <title>Корзина</title>
+
+</head>
+
+<body>
+
+
+
+        <!-- Прилипающее меню -->
+    <div class="top-sticky">
+        <div class="container">
+            <div class="top">
+                                    <a class="logo" href="/"><img src="local/templates/main/img/logo.svg" alt="НГК"></a>
+
+                <a href="/catalog/" class="btn icon-cat">Каталог</a>
+
+                <form action="/search/" method="get">
+                    <input name="q" type="search" placeholder="Введите название или артикул">
+                </form>
+
+                 <div class="dropdown-tel">
+
+            <a href="tel:+7 (495) 781 7777" class="link">+7 (495) 781 7777 <img class="arrow" src="local/templates/main/img/arrow.svg"></a>
+        <div class="dropdown-tel__content">
+            <a href="tel:+7 (495) 781 7777" class="link">+7 (495) 781 7777</a>
+            <p class="dropdown-tel__content_p" style="padding-bottom: 9px;">Офис и техническая поддержка</p>
+
+
+            <a href="tel:+7 (925) 515 0055" class="link">+7 (925) 515 0055</a>
+        <p class="dropdown-tel__content_p">Сервисный центр</p>
+
+    </div>
+</div>
+                <a href="windows/callback.html" class="callback window-link"></a>
+                <a href="/basket/" class="basket"></a>
+            </div>
+        </div>
+    </div>
+    <!-- Конец "Прилипающее меню" -->
+
+    <header class="header_desc">
+        <div class="container">
+            <div class="top">
+                                <a class="logo" href="/"><img src="local/templates/main/img/logo.svg" alt="НГК"></a>
+                <div class="header-title"><img src="local/templates/main/img/header-title.svg" alt="Оборудование для геодезии"></div>
+                <form action="/search/" method="get">
+                    <input name="q" type="search" placeholder="Введите название или артикул">
+                </form>
+
+                 <div class="dropdown-tel">
+
+            <a href="tel:+7 (495) 781 7777" class="link">+7 (495) 781 7777 <img class="arrow" src="local/templates/main/img/arrow.svg"></a>
+        <div class="dropdown-tel__content">
+            <a href="tel:+7 (495) 781 7777" class="link">+7 (495) 781 7777</a>
+            <p class="dropdown-tel__content_p" style="padding-bottom: 9px;">Офис и техническая поддержка</p>
+
+
+            <a href="tel:+7 (925) 515 0055" class="link">+7 (925) 515 0055</a>
+        <p class="dropdown-tel__content_p">Сервисный центр</p>
+
+    </div>
+</div>                <a href="windows/callback.html" class="callback window-link"></a>
+                      <a href="/basket/" class="basket"></a>
+            </div>
+        </div>
+        <div class="line-head"></div>
+        <div class="menu">
+            <a href="/catalog/" class="btn icon-cat">Каталог</a>
+	<nav>
+		<ul>
+
+
+
+
+
+					<li class="dropdown-menu">
+					<a href="/about/" class="link">О компании <img class="arrow" src="local/templates/main/img/arrow.svg"></a>
+					<div class="dropdown-menu__content">
+						<ul>
+
+
+
+
+
+
+									<li>
+						<a href="/about/" class="link">О компании</a>
+					</li>
+
+
+
+
+
+
+									<li>
+						<a href="/media/fotogalereya/index.php/" class="link">Галерея</a>
+					</li>
+
+
+
+
+
+
+									<li>
+						<a href="/news/" class="link">Новости</a>
+					</li>
+
+
+
+
+
+
+									<li>
+						<a href="/blog/" class="link">Блог</a>
+					</li>
+
+
+
+
+							</ul></li>
+
+									<li class="dropdown-menu">
+                        <a href="https://ngcm.ru/support/support_form.php" class="link">Поддержка</a>
+                    </li>
+
+
+
+
+
+
+									<li class="dropdown-menu">
+                        <a href="/services/servisnyy-tsentr-leica-geosystems-kompaniya-navgeokom.php" class="link">Сервис</a>
+                    </li>
+
+
+
+
+
+
+									<li class="dropdown-menu">
+                        <a href="/contacts/" class="link">Контакты</a>
+                    </li>
+
+
+
+
+
+
+		</ul>
+	</nav>
+
+
+
+            <div class="menu-mail">
+                <p>Написать нам:</p>
+                <a class="link" href="mailto:info@ngcm.ru">info@ngcm.ru</a>
+            </div>
+        </div>
+        <div class="line-head"></div>
+    </header>
+
+    <header class="header-mob">
+        <div class="header-cont">
+            <div class="header-cont_logo">
+                <a href="/"><img src="local/templates/main/img/logo.svg" alt="лого"></a>
+            </div>
+            <div class="header-cont_title"><img src="local/templates/main/img/header-title.svg" alt="Оборудование для геодезии"></div>
+            <div class="overlay"></div>
+            <div class="header-cont_search">
+				<a><img src="local/templates/main/img/search-new.svg" alt="поиск"></a>
+            </div>
+            <div class="header-cont_callback">
+                <a href="windows/callback.html" class="window-link"><img src="local/templates/main/img/callback.svg" alt="Обратный звонок"></a>
+            </div>
+            <div class="header-cont_basket">
+                <a href="/basket/" class="basketMob"><img src="local/templates/main/img/basket-new.svg" alt="корзина"></a>
+            </div>
+            <a href="#menu-drop" class="menu-btn"></a>
+        </div>
+        <div class="top hidden">
+                <form action="/search/" method="get">
+                    <input name="q" type="search" placeholder="Введите название или артикул">
+                </form>
+        </div>
+    </header>
+
+
+<!-- Хлебные крошки -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+<div class="container">
+	<ol class="breadcrumb__list">
+		<li class="breadcrumb__item">
+			<a class="breadcrumb__link" href="/">Главная</a>
+		</li>
+
+			<li class="breadcrumb__item">
+				<a class="breadcrumb__link" href="#">Документы</a>
+			</li>
+			</ol>
+</div>
+</nav><!-- Конец "Хлебные крошки" -->
+
+<!-- Заголовок -->
+<div class="container">
+	<h1>Документы</h1>
+</div>
+<!-- Конец "Заголовок" -->
+
+
+ 	<!-- Состав корзины  -->
+    <div class="container">
+        <form action="/" method="get" id="basketForm">
+        <ul class="basket-list">
+            			                <input type="hidden" name="items[]" value="1415">
+            <li>
+                <img class="basket-list__img-prod" src="upload/resize_cache/iblock/f62/l5ito52l4886zrnsrea9dbzwp5h97xrm/160_160_1/1.webp" alt="Электронный тахеометр FOIF RTS102 (R600, 2&quot;)">
+                <div class="basket-list__p">
+                    <a href="#" class="h4">Электронный тахеометр FOIF RTS102 (R600, 2&quot;)</a>
+                    <p class="output__products__prod_art">Артикул: <span>656044</span></p>
+                </div>
+                <div class="count">
+                    <span class="count_m"></span>
+                    <input name="quantity[1415]" type="number" value="1" data-id="615" class="count_i count_i_basket">
+                    <span class="count_p"></span>
+                </div>
+                
+                <div class="basket-list__price">
+                    <p class="h4">
+                        252 000 ₽                    </p>
+                </div>
+                <a href="#" data-id="1415" data-productid="615" class="js-delete"><img class="basket-list__del" src="local/templates/main/img/del.svg" alt="Удалить"></a>
+            </li>
+                                        <input type="hidden" name="items[]" value="1437">
+            <li>
+                <img class="basket-list__img-prod" src="upload/resize_cache/iblock/826/jbmei6c39g3y4rf2j3rtzhrnvkv7zu4o/160_160_1/Low_Resolution-Leica%20TS07%20-%20Back%20-%20300dpi.jpg" alt="Тахеометр Leica TS07 R500 Arctic (3&quot;) AutoHeight">
+                <div class="basket-list__p">
+                    <a href="#" class="h4">Тахеометр Leica TS07 R500 Arctic (3&quot;) AutoHeight</a>
+                    <p class="output__products__prod_art">Артикул: <span>890060</span></p>
+                </div>
+                <div class="count">
+                    <span class="count_m"></span>
+                    <input name="quantity[1437]" type="number" value="1" data-id="1652" class="count_i count_i_basket">
+                    <span class="count_p"></span>
+                </div>
+                
+                <div class="basket-list__price">
+                    <p class="h4">
+                        2 107 500 ₽                    </p>
+                </div>
+                <a href="#" data-id="1437" data-productid="1652" class="js-delete"><img class="basket-list__del" src="local/templates/main/img/del.svg" alt="Удалить"></a>
+            </li>
+                                        <input type="hidden" name="items[]" value="1438">
+            <li>
+                <img class="basket-list__img-prod" src="upload/resize_cache/iblock/826/jbmei6c39g3y4rf2j3rtzhrnvkv7zu4o/160_160_1/Low_Resolution-Leica%20TS07%20-%20Back%20-%20300dpi.jpg" alt="Тахеометр Leica TS07 R500 Arctic (1&quot;)">
+                <div class="basket-list__p">
+                    <a href="#" class="h4">Тахеометр Leica TS07 R500 Arctic (1&quot;)</a>
+                    <p class="output__products__prod_art">Артикул: <span>868857</span></p>
+                </div>
+                <div class="count">
+                    <span class="count_m"></span>
+                    <input name="quantity[1438]" type="number" value="1" data-id="1649" class="count_i count_i_basket">
+                    <span class="count_p"></span>
+                </div>
+                
+                <div class="basket-list__price">
+                    <p class="h4">
+                        2 414 000 ₽                    </p>
+                </div>
+                <a href="#" data-id="1438" data-productid="1649" class="js-delete"><img class="basket-list__del" src="local/templates/main/img/del.svg" alt="Удалить"></a>
+            </li>
+                                </ul>
+        </form>
+    </div>
+    <!-- Конец "Состав корзины"  -->
+
+    <!-- Оформление заказа -->
+    <form action="/" id="orderForm" method="get" class="container order">
+        <div class="order__form">
+            <p class="h3">Ваши данные</p>
+            <div class="order__form__row1">
+                <label for="name">Ваше имя<input type="text" name="name" id="name" ></label>
+                <label for="tel">Ваш телефон<input type="number" name="tel" id="tel" placeholder="+7 (___) ___-__-__"></label>
+                <label for="email">Ваш e-mail<input type="email" name="email" id="email"></label>
+            </div>
+            <label style="margin-top: 20px;" for="textarea">Комментарий к заказу<textarea name="message" type="textarea" id="textarea"></textarea></label>
+        </div>
+        <div class="order__total">
+            <p class="h3">Итого</p>
+            <ul>
+                <li><span>Позиций:</span><span id="positionsCount">3</span></li>
+                <li><span>Товаров:</span><span id="itemsCount">3</span></li>
+            </ul>
+            <div class="order__total_line"></div>
+            <div class="order__total__sum">
+                <div class="h4">Сумма</div>
+                <div class="h4" id="sumBasketFormated">4 773 500 ₽</div>
+            </div>
+            <button id="orderFormSubmit" type="submit">отправить</button>
+            <span id="orderFormErr" style="color: #f00;"></span>
+            <div class="agreement">
+                <p class="agreement_star">*</p>
+                <p class="agreement_p">нажимая кнопку «Отправить», вы даете <a class="agreement_p_a" href="/about/politika-konfidentsialnosti/" target="_blank">согласие на обработку персональных данных</a></p>
+            </div>
+        </div>
+    </form>
+    <!-- Конец "Оформление заказа" -->
+
+
+
+
+
+
+  <footer>
+        <div class="container footer-cont">
+            <div class="footer-cont__col1">
+                <img src="local/templates/main/img/logo-footer.svg" alt="НГК">
+                <p class="footer-cont__col1_text">
+                 Уважаемые клиенты! Настоящим уведомляем, что цены на оборудование, указанные на настоящем сайте, являются предварительными и могут быть изменены в одностороннем порядке ООО «НАВГЕОКОМ» в случае изменения цен производителя на оборудование. Цена устанавливается в отношении оборудования с даты направления клиенту коммерческого предложения или счета. Цены действительны только на территории Российской Федерации.<br>
+ <br>
+                </p>
+                <p class="footer-cont__col1_star">*</p>
+            </div>
+            <div class="footer-cont__col2">
+                <p class="footer-cont__col2_head">Дополнительные ссылки</p>
+
+
+
+
+		<ul>
+
+					<li>
+				<a href="https://tps.ngcm.ru/allreg" target="_blank">tps.ngcm.ru - тахеометры FOIF</a>
+			</li>
+
+					<li>
+				<a href="https://support.ngcm.ru" target="_blank">support.ngcm.ru - Поддержка</a>
+			</li>
+
+					<li>
+				<a href="https://sc.ngcm.ru" target="_blank">sc.ngcm.ru - Сервисный центр</a>
+			</li>
+
+					<li>
+				<a href="https://ngcm.ru/about/politika-konfidentsialnosti.php" target="_blank">Политика конфиденциальности</a>
+			</li>
+
+
+
+		</ul>
+
+
+
+
+            </div>
+            <div class="footer-cont__col3">
+                <div class="col">
+                <p class="footer-cont__col3_head">Контакты</p>
+                <p class="footer-cont__col3_adress">ООО «НАВГЕОКОМ» <br> 127273, г. Москва, ул. Отрадная,<br>дом 2Б
+                    стр. 6</p>
+                </div>
+                <div class="col">
+                <div class="footer-cont__col3_adress_links"> <a href="mailto:info@ngcm.ru" class="footer-cont__col3_mail">info@ngcm.ru</a>
+                    <div class="footer-cont__col3_soc">
+
+
+    <a href="https://www.youtube.com/@ngc_com" class=""> <img src="upload/iblock/f1b/twgppltode3mg8dpvz5syznp0sxgkdr6/1.svg" alt=""/></a>
+
+    <a href="https://vk.com/ngc_com" class=""> <img src="upload/iblock/999/kx600gob0p0e22ovk9mk22754x1u6rud/vk-ico.png" alt=""/></a>
+
+    <a href="https://wa.me/79275720803" class=""> <img src="upload/iblock/c19/4cc2jzprxbt25xxbxjypkm3soy5d7vjc/whatsapp-svgrepo-com.svg" alt=""/></a>
+
+    <a href="https://t.me/navgeocom_bot" class=""> <img src="upload/iblock/bbc/r3g2iq59hnh9c7f6hqcrcle2r8tbpe9b/tg-ico.png" alt=""/></a>
+
+</div>				  <!--//-->
+				</div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Попап с выпадом каталога -->
+
+
+
+
+
+<div class="popup_cat" id="drop-catalog">
+	<a href="#" class="popup_close"></a>
+	<a href="#" class="popup_area"></a>
+	<div class="popup_cat__body">
+		<a href="/catalog/" class="btn icon-cat-close">Каталог</a>
+		<ul class="popup_cat__output">
+
+
+
+
+
+									<!-- <div class="popup_cat__output__col1"> -->
+
+
+									<li class="popup_cat__output__col1_ul1">
+							<p class="h4">Тахеометры</p>
+							<ul>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/foif/">FOIF</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/leica_1/">Leica</a></li>
+
+
+
+
+
+
+
+
+
+									</ul>
+						</li>
+
+									<li class="popup_cat__output__col1_ul1">
+							<p class="h4">Аксессуары</p>
+							<ul>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/akkumyalyatory/">Аккумуляторы</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/otrazhateli/">Отражатели</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/shtativy/">Штативы</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/keysy-i-ryukzaki/">Кейсы и рюкзаки</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/zaryadnye-ustroystva/">Зарядные устройства</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/tregery/">Трегеры</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/bipody-i-tripody/">Биподы и триподы</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/vekhi/">Вехи</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/reyki-dlya-nivelirov-ls/">Рейки для нивелиров</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/adaptery/">Адаптеры и крепления</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/okulyarnye-nasadki/">Окулярные насадки</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/kabeli/">Кабели</a></li>
+
+
+
+
+
+
+
+
+
+									</ul>
+						</li>
+
+									<li class="popup_cat__output__col1_ul1">
+							<p class="h4">Спутниковые приемники</p>
+							<ul>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/leica_GNSS/">Leica</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/tersus_gnss/">TERSUS</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/prin/">PrinCe</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/chcnav/">CHCNAV</a></li>
+
+
+
+
+
+
+
+
+
+									</ul>
+						</li>
+
+									<li class="popup_cat__output__col1_ul1">
+							<p class="h4">Полевые контроллеры</p>
+							<ul>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/leica/">Leica</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/tersus/">TERSUS</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/prince/">PrinCe</a></li>
+
+
+									<!-- </div> -->
+
+
+
+
+
+
+									<!-- <div class="popup_cat__output__col1"> -->
+
+									</ul>
+						</li>
+
+									<li class="popup_cat__output__col1_ul1">
+							<p class="h4">Лазерные сканеры</p>
+							<ul>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/leica_hds/">Leica</a></li>
+
+
+
+
+
+
+
+
+
+									</ul>
+						</li>
+
+									<li class="popup_cat__output__col1_ul1">
+							<p class="h4">Программное обеспечение</p>
+							<ul>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/leica_PO/">Leica</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/prince_L/">PrinCe</a></li>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/tersus_sw/">Tersus</a></li>
+
+
+
+
+
+
+
+
+
+									</ul>
+						</li>
+
+									<li class="popup_cat__output__col1_ul1">
+							<p class="h4">БПЛА</p>
+							<ul>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/optiplane/">Optiplane</a></li>
+
+
+
+
+
+
+
+
+
+									</ul>
+						</li>
+
+									<li class="popup_cat__output__col1_ul1">
+							<p class="h4">Системы учета объема сыпучих материалов</p>
+							<ul>
+
+
+
+
+
+
+
+
+
+
+													<li><a href="/catalog/sistema-ucheta-obema-sypuchikh-materialov/">Система учета объема сыпучих материалов</a></li>
+
+
+
+
+				</ul>
+			</li>
+
+						<!-- </div> -->
+					</ul>
+    </div>
+</div>
+
+
+
+    <!-- Конец "Попап с выпадом каталога" -->
+
+    <!-- Попап с выпадом меню бургер -->
+    <div class="popup_menu-drop" id="menu-drop">
+        <a href="#" class="popup_close"></a>
+        <a href="#" class="popup_area"></a>
+        <div class="popup_menu__body">
+            <details class="popup_menu_catalog">
+                <summary>
+                    <a class="popup_menu_catalog_toggle">каталог</a>
+                </summary>
+
+
+<ul class="popup_menu_catalog__dropdown">
+
+													<li class="popup_menu__dropdown">
+                        <a href="#" class="popup_menu__dropdown-toggle">Тахеометры</a>
+                        <ul class="popup_menu__dropdown-menu">
+
+
+
+
+																	<li><a href="/catalog/foif/">FOIF</a></li>
+
+
+
+
+																	<li><a href="/catalog/leica_1/">Leica</a></li>
+
+
+
+
+									</ul>
+						</li>
+													<li class="popup_menu__dropdown">
+                        <a href="#" class="popup_menu__dropdown-toggle">Аксессуары</a>
+                        <ul class="popup_menu__dropdown-menu">
+
+
+
+
+																	<li><a href="/catalog/akkumyalyatory/">Аккумуляторы</a></li>
+
+
+
+
+																	<li><a href="/catalog/otrazhateli/">Отражатели</a></li>
+
+
+
+
+																	<li><a href="/catalog/shtativy/">Штативы</a></li>
+
+
+
+
+																	<li><a href="/catalog/keysy-i-ryukzaki/">Кейсы и рюкзаки</a></li>
+
+
+
+
+																	<li><a href="/catalog/zaryadnye-ustroystva/">Зарядные устройства</a></li>
+
+
+
+
+																	<li><a href="/catalog/tregery/">Трегеры</a></li>
+
+
+
+
+																	<li><a href="/catalog/bipody-i-tripody/">Биподы и триподы</a></li>
+
+
+
+
+																	<li><a href="/catalog/vekhi/">Вехи</a></li>
+
+
+
+
+																	<li><a href="/catalog/reyki-dlya-nivelirov-ls/">Рейки для нивелиров</a></li>
+
+
+
+
+																	<li><a href="/catalog/adaptery/">Адаптеры и крепления</a></li>
+
+
+
+
+																	<li><a href="/catalog/okulyarnye-nasadki/">Окулярные насадки</a></li>
+
+
+
+
+																	<li><a href="/catalog/kabeli/">Кабели</a></li>
+
+
+
+
+									</ul>
+						</li>
+													<li class="popup_menu__dropdown">
+                        <a href="#" class="popup_menu__dropdown-toggle">Спутниковые приемники</a>
+                        <ul class="popup_menu__dropdown-menu">
+
+
+
+
+																	<li><a href="/catalog/leica_GNSS/">Leica</a></li>
+
+
+
+
+																	<li><a href="/catalog/tersus_gnss/">TERSUS</a></li>
+
+
+
+
+																	<li><a href="/catalog/prin/">PrinCe</a></li>
+
+
+
+
+																	<li><a href="/catalog/chcnav/">CHCNAV</a></li>
+
+
+
+
+									</ul>
+						</li>
+													<li class="popup_menu__dropdown">
+                        <a href="#" class="popup_menu__dropdown-toggle">Полевые контроллеры</a>
+                        <ul class="popup_menu__dropdown-menu">
+
+
+
+
+																	<li><a href="/catalog/leica/">Leica</a></li>
+
+
+
+
+																	<li><a href="/catalog/tersus/">TERSUS</a></li>
+
+
+
+
+																	<li><a href="/catalog/prince/">PrinCe</a></li>
+
+
+
+
+									</ul>
+						</li>
+													<li class="popup_menu__dropdown">
+                        <a href="#" class="popup_menu__dropdown-toggle">Лазерные сканеры</a>
+                        <ul class="popup_menu__dropdown-menu">
+
+
+
+
+																	<li><a href="/catalog/leica_hds/">Leica</a></li>
+
+
+
+
+									</ul>
+						</li>
+													<li class="popup_menu__dropdown">
+                        <a href="#" class="popup_menu__dropdown-toggle">Программное обеспечение</a>
+                        <ul class="popup_menu__dropdown-menu">
+
+
+
+
+																	<li><a href="/catalog/leica_PO/">Leica</a></li>
+
+
+
+
+																	<li><a href="/catalog/prince_L/">PrinCe</a></li>
+
+
+
+
+																	<li><a href="/catalog/tersus_sw/">Tersus</a></li>
+
+
+
+
+									</ul>
+						</li>
+													<li class="popup_menu__dropdown">
+                        <a href="#" class="popup_menu__dropdown-toggle">БПЛА</a>
+                        <ul class="popup_menu__dropdown-menu">
+
+
+
+
+																	<li><a href="/catalog/optiplane/">Optiplane</a></li>
+
+
+
+
+									</ul>
+						</li>
+													<li class="popup_menu__dropdown">
+                        <a href="#" class="popup_menu__dropdown-toggle">Системы учета объема сыпучих материалов</a>
+                        <ul class="popup_menu__dropdown-menu">
+
+
+
+
+																	<li><a href="/catalog/sistema-ucheta-obema-sypuchikh-materialov/">Система учета объема сыпучих материалов</a></li>
+
+
+
+
+				</ul>
+			</li>
+
+
+</ul>
+
+
+
+
+
+            </details>
+
+
+
+
+
+	<ul class="popup_menu__output">
+
+
+
+
+										<li><details class="popup_menu__output__det">
+                        <summary class="popup_menu__output__det_sum"><a class="popup_menu__output__toggle">О компании</a></summary>
+
+
+
+
+
+
+
+						<a href="/about/">О компании</a>
+
+
+
+
+
+
+
+
+						<a href="/media/fotogalereya/index.php/">Галерея</a>
+
+
+
+
+
+
+
+
+						<a href="/news/">Новости</a>
+
+
+
+
+
+
+
+
+						<a href="/blog/">Блог</a>
+
+
+
+
+
+							</details></li>
+
+									<li>
+						<a href="https://ngcm.ru/support/support_form.php">Поддержка</a>
+					</li>
+
+
+
+
+
+
+									<li>
+						<a href="/services/servisnyy-tsentr-leica-geosystems-kompaniya-navgeokom.php">Сервис</a>
+					</li>
+
+
+
+
+
+
+									<li>
+						<a href="/contacts/">Контакты</a>
+					</li>
+
+
+
+
+
+
+		</ul>
+
+
+
+
+          <div class="popup_menu__tel">
+
+
+        <div class="popup_menu__tel1">
+        <p class="popup_menu__tel_p1">+7 (495) 781 7777</p>
+        <p class="popup_menu__tel_p2">Офис и техническая поддержка</p>
+    </div>
+
+
+        <div class="popup_menu__tel2">
+        <p class="popup_menu__tel_p1">+7 (925) 515 0055</p>
+        <p class="popup_menu__tel_p2">Сервисный центр</p>
+    </div>
+
+
+</div>
+            <div class="popup_menu__line-cont">
+                <div class="popup_menu__line"></div>
+            </div>
+            <div class="popup_menu__mail">
+                <p class="popup_menu__mail_p">Написать нам: </p>
+                <a class="link" href="mailto:info@ngcm.ru">info@ngcm.ru</a>            </div>
+        </div>
+    </div>
+    <!-- Конец "Попап с выпадом меню бургер" -->
+
+    <!-- Попап с выпадом поиска -->
+    <div class="popup_menu-drop" id="search-mob">
+        <a href="#" class="popup_close"></a>
+        <a href="#" class="popup_area"></a>
+        <div class="popup_menu__body">
+            <form action="/search/" class="search-mob" action="#" method="get">
+                <input name="q" type="search" placeholder="Введите название или артикул">
+            </form>
+        </div>
+    </div>
+    <!-- Конец "Попап с выпадом поиска" -->
+
+      <!-- Попап спасибо -->
+      <a href="#thanks" id="thanksLink" style="display:none;"></a>
+      <div class="popup_cat" id="thanks">
+        <a href="#" class="popup_close"></a>
+        <a href="#" class="popup_area"></a>
+        <div class="popup_cat__body">
+            <div class="popup_thanks">
+                <p class="h3">Спасибо!</p>
+                <p class="h4">В ближайщее время с Вами свяжуться</p>
+                <a href="/" class="btn-popup">Перейти на главную</a>
+            </div>
+        </div>
+    </div>
+    <!-- Конец "Попап спасибо" -->
+
+    <!-- Заглушка для AJAX -->
+
+    <div class="loaderMy"></div>
+
+    <!-- [end] Заглушка для AJAX -->
+<script type="text/javascript" src="ngc-js.js"></script>
+
+<script defer type="text/javascript" src="local/templates/main/js/ngk-catalog.js"></script>
+
+
+<script src="local/templates/main/js/jquery.min.js"></script>
+<script src="local/templates/main/js/video.js"></script>
+<script src="local/templates/main/js/swiper-bundle.min.js"></script>
+<script src="local/templates/main/js/fancybox.umd.js"></script>
+<script src="local/templates/main/js/jquery.mask.min.js"></script>
+<script src="local/templates/main/js/validation/jquery.validate.min.js"></script>
+<script src="local/templates/main/js/validation/messages_ru.js"></script>
+<script src="local/templates/main/components/bitrix/sale.basket.basket/my/script.js"></script>
+<script src="local/templates/main/js/new.js"></script>
+
+
+<script>
+        Fancybox.bind('[data-fancybox]', {
+  // Your custom options
+});
+//var $=jQuery;
+
+    </script>
+</body>
+
+</html>
